@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/itemAluno"
+        android:icon="@drawable/icon_new"
+        android:title="Aluno"
+        app:showAsAction="ifRoom">
+    </item>
+            <item android:id="@+id/itemFindAluno"
+                android:icon="@drawable/icon_new"
+                android:title="Buscar Alunos">
+            </item>
+            <item android:id="@+id/itemNovoAluno"
+                android:icon="@drawable/icon_new"
+                android:title="Novo Aluno">
+            </item>
+
+
+
+    <item android:id="@+id/item2"
+        android:icon="@drawable/icon_new"
+        android:title="endereco">
+        <menu>
+            <item android:id="@+id/suitem2"
+                android:icon="@drawable/icon_new"
+                android:title="Buscar Logradouro">
+            </item>
+        </menu>
+    </item>
+
+
+</menu>
